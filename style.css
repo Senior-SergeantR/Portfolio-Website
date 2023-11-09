@@ -336,6 +336,69 @@ button.contact-btn{
     padding: 15px;
     border-radius: 5px;
 }
+.about .about-image .social-media i{
+    color: var(--bg-clr-one);
+    margin: 8px 0;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+
+.about .about-image .social-media i:hover{
+    transform: scale(1.2);
+}
+
+.about .about-desc h3{
+    font-size: 17px;
+    color: var(--links-clr);
+}
+
+
+.about .about-desc h2{
+    margin: 10px 0px;
+    font-size: 22px;
+    color: var(--primary-clr);
+}
+
+.about .about-desc p{
+    font-size: 15px;
+    color: var(--text-clr);
+}
+
+.about-desc .about-personal-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px 20px;
+    margin-top: 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--primary-clr);
+}
+
+.about-personal-info div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about-personal-info div span{
+   
+    letter-spacing: 0.5px;
+}
+
+.about-desc .download-btn{
+    border-radius: 25px;
+    margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -411,6 +474,37 @@ button.contact-btn{
 
     .home .career-container{
         grid-template-columns: 1fr;
+    }
+
+    /* about section */
+
+    .about{
+        flex-direction: column;
+    }
+
+    .about .about-desc{
+        flex-basis: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .about-desc .about-personal-info{
+        grid-template-columns: 1fr;
+        grid-gap: 10px 20px;
+        margin-top: 14px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid var(--primary-light-clr);
+    }
+
+
+    .about .about-image{
+        flex-basis: 100%;
+        min-height: 300px;
+    }
+
+    .about .about-image img{
+        min-width: 250px;
+        min-height: 300px;
     }
 
        
