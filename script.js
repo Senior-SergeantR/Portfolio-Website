@@ -22,7 +22,7 @@ var homeSection = document.querySelector('.home');
 window.addEventListener('scroll',scrollFunction);
 
 function scrollFunction(){
-    if(window.scrollY > 10){
+    if(window.scrollY > 60){
         homeSection.classList.add('active');
     
     }else{

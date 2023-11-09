@@ -288,6 +288,57 @@ button.contact-btn{
 }
 
 
+.about{
+    padding: 90px 8% 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .about-image{
+    position: relative;
+    flex-basis: 30%;
+    height: 400px;
+    max-height: 450px;
+    background-color: var(--primary-light-clr);
+}   
+
+.about .about-desc{
+    flex-basis: 65%;
+    margin-left: 3%;
+}
+
+.about .about-image::before{
+    position: absolute;
+    content: '';
+    width: calc(100% - 15px);
+    height: calc(100% - 15px);
+    outline: 3px solid var(--primary-clr);
+    top: -10px;
+    left: -10px;
+    z-index: 1;
+}
+.about .about-image img{
+    position: relative;
+    width: 100%;
+    min-width: 280px;
+    height: 100%;
+    object-fit: cover;
+    z-index: 2;
+}
+
+.about .about-image .social-media{
+    position: absolute;
+    top: 50%;
+    left: calc(100% - 10px);
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    background-color: var(--primary-clr);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+
 /* Media querry screen size 1100px or smaller*/
 
 @media (max-width:1100px) {
