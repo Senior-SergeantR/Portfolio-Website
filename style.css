@@ -146,6 +146,15 @@ button.contact-btn{
     overflow: hidden;
 }
 
+.home.active .navbar{
+    top: 0;
+    position: fixed;
+    max-height: 70px;
+    height: 10vh;
+    background-color: var(--bg-clr-one);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15);
+}
+
 .hero .hero-text{
     position: relative;
     top: -10px;
@@ -288,7 +297,72 @@ button.contact-btn{
 /* Media querry screen size 768px or smaller*/
 
 @media (max-width:768px) {
+
+    .navbar .menu-btn{
+        display: block;
+        margin-left: 30px;
+        z-index:101;
+    }
     
+    .navbar .menu-btn.active .bar:nth-child(1){
+        transform:translateY(8px) rotate(45deg);
+    }
+
+    .navbar .menu-btn.active .bar:nth-child(3){
+        transform:translateY(-8px) rotate(-45deg);
+    }
+
+    .navbar .menu-btn.active .bar:nth-child(2){
+       transform: -30px;
+       opacity: 0;
+    }
+
+
+    .navbar ul.nav-links{
+        position: fixed;
+        width: 50%;
+        height: 60vh;
+        top: 0;
+        /* right: 0; */
+        right: -50% ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--primary-light-clr);
+        transition: right 0.3s cubic-bezier(1,0.3,0.3,1);
+        z-index: 100;
+    }
+
+    .navbar ul.nav-links.active{
+        right: 0;   
+    }
+
+    .navbar ul.nav-links li{
+        margin: 25px 0 0;
+    }
+
+    .navbar ul.nav-links li:nth-child(1){
+        margin-top: 100px;
+    }
+
+    .navbar ul.nav-links li a{
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+
+    .navbar .button-wrapper{
+        margin-left: auto;
+    }
+
+    .hero .hero-image img{
+        opacity: 0.3;
+    }
+
+    .home .career-container{
+        grid-template-columns: 1fr;
+    }
+
+       
 }
 
 /* Media querry screen size 600px or smaller*/
@@ -300,12 +374,16 @@ button.contact-btn{
 /* Media querry screen size 550px or smaller*/
 
 @media (max-width:550px) {
-    
+    .hero .hero-image{
+        right: -200px;
+    }
 }
 
 /* Media querry screen size 350px or smaller*/
 
 @media (max-width:350px) {
-    
+    button.contact-btn{
+        display: none;
+    }
 }
 
