@@ -708,6 +708,82 @@ button.contact-btn{
     color: var(--primary-clr);
 }
 
+.testimenials{
+    background-color: var(--bg-clr-one);
+}
+
+.testimenials-container{
+    position: relative;
+}
+
+
+
+.testimenials-container .testimonial-card{
+    padding: 20px;
+}
+
+.testimenial-card .profile{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.profile .profile-image{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+.profile .profile-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.testimonial-card .test-card-body{
+    background-color: var(--primary-light-clr);
+    padding: 20px;
+}
+
+.test-card-body .quote{
+    display: flex;
+    align-items: center;
+}
+
+.test-card-body .quote i{
+    font-size: 45px;
+    color: var(--primary-clr);
+    margin-right: 20px;
+}
+
+.test-card-body .quote h2{
+    color: var(--primary-clr);
+}
+
+.test-card-body p{
+    margin: 10px 0 15px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--text-clr);
+}
+
+.test-card-body .ratings{
+    margin-top: 20px;
+}
+
+.test-card-body .ratings i{
+    font-size: 17px;
+    color: rgb(255, 230, 0);
+    cursor: pointer;
+}
+
+
+
+
+
 
 
 
@@ -724,8 +800,6 @@ button.contact-btn{
     .portfolio .gallery .item{
         width: calc(100% / 2);
     }
-
-
 
 
 }

@@ -47,7 +47,7 @@ $('.button-group .button').on('click', function(){
     })
 })
 
-
+ 
 $('.gallery').magnificPopup({
     delegate: '.overlay a',
     type: 'image',
@@ -55,3 +55,23 @@ $('.gallery').magnificPopup({
         enabled: true
     }
 })
+
+$('.testimonials-container').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:2
+        }
+    }
+})
+
+
+// note: some links i am supposed to add in html from cdnjs 1:51:30s
