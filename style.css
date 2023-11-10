@@ -796,6 +796,54 @@ button.contact-btn{
     color: var(--text-clr);
 }
 
+.testimonials .owl-nav{
+    position: absolute;
+    right: 20px;
+    bottom: -10px;
+}
+
+.testimonials .owl-nav button{
+    border-radius: 50% !important;
+}
+
+.testimonials .owl-nav .owl-prev i,
+.testimonials .owl-nav .owl-next i{
+    padding: 10px !important;
+    border-radius: 50%;
+    font-size: 18px !important;
+    background-color: var(--primary-light-clr) !important;
+    color: var(--primary-clr);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.testimonials .owl-nav .owl-prev i:hover,
+.testimonials .owl-nav .owl-next i:hover{
+    background-color: var(--primary-light-clr) !important;
+    color: var(--bg-clr-one);
+}
+
+.testimenials .owl-dots{
+    margin-top: 15px;
+}
+
+.testimenials .owl-dots .owl-dot span{
+    padding: 6px !important;
+}
+
+.testimenials .owl-dots .owl-dot.active span{
+    background-color: var(--primary-clr) !important;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
