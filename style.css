@@ -780,9 +780,21 @@ button.contact-btn{
     cursor: pointer;
 }
 
+.profile .profile-desc{
+    display: flex;
+    flex-direction: column;
+}
 
+.profile-desc span:nth-child(1){
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--primary-clr);
+}
 
-
+.profile-desc span:nth-child(2){
+    font-size: 15px;
+    color: var(--text-clr);
+}
 
 
 
