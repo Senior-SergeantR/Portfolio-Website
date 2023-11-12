@@ -1017,8 +1017,35 @@ button.contact-btn{
 background-color: var(--links-clr);
 }
 
+.page-footer{
+    width: 100%;
+    padding: 20px 8%;
+}
 
+.page-footer .footer-contents{
+    display: flex;
+    justify-content: space-between;
+    text-align-last: center ;
+}
 
+.footer-contents a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--primary-clr);
+    margin-right: 20px;
+
+}
+
+.footer-contents p{
+    font-size: 16px;
+    color: var(--text-clr);
+}
+
+.footer-contents p span{
+    color: var(--primary-clr);
+    font-weight: bold;
+}
 
 
 
@@ -1201,6 +1228,8 @@ background-color: var(--links-clr);
     .hero .hero-image{
         right: -200px;
     }
+
+
 }
 
 /* Media querry screen size 350px or smaller*/
