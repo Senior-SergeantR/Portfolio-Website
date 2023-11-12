@@ -1159,6 +1159,28 @@ background-color: var(--links-clr);
         margin-top: 30px;
     }
 
+    .contact-form .contact-row{
+        flex-direction: column;
+    }
+
+    .contact-row .column-1,
+    .contact-row .column-2{
+        flex-basis: 100%;
+    }
+
+    .contact-row .column-1{
+        min-width: 250px;
+        padding: 20px;
+    }
+
+    .column-2 .form-2 textarea{
+        margin-top: 0;
+        height: 200px;
+    }
+
+    .column-2 .form-2 .inputGroup{
+        border: 1px solid #ddd;
+    }
 
        
 }
