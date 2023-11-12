@@ -1229,6 +1229,18 @@ background-color: var(--links-clr);
         right: -200px;
     }
 
+    .page-footer .footer-contents{
+        flex-direction: column;
+    }
+
+    .footer-contents a{
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .footer-contents p{
+        margin-bottom: 10px;
+    }
 
 }
 
