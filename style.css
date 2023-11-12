@@ -259,11 +259,14 @@ button.contact-btn{
     position: absolute;
     width: auto;
     height: auto;
-    object-fit: cover;
-    transform: rotate(-40deg);
-    left: 20px;
+    object-fit:cover ;
+    transform: rotate(-20deg) scale(1.3);
+    top: 350px;
+    left: 200px;
     bottom: 0px;
+    
 }
+
 
 .home .career-container{
     position: relative;
