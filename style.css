@@ -6,6 +6,7 @@
 }
 
 html{
+    scroll-behavior: smooth;
     --bg-clr-one: #f6f9fe;
     --bg-clr-two: #f4f7fc;
     --bg-clr-three: #eef1f6;
