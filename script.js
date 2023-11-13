@@ -39,19 +39,19 @@ let prev = document.querySelector('.prev')
 
 
 next.addEventListener('click',function(){
-    let items = document.querySelectorAll('.item')
+    let items = document.querySelectorAll('.items')
     document.querySelector('.slide').appendChild(items[0])
 })
 
 prev.addEventListener('click',function(){
-    let items = document.querySelectorAll('.item')
+    let items = document.querySelectorAll('.items')
     document.querySelector('.slide').prepend(items[items.length - 1])
 })
 
 // slider js end
 
 var $galleryContainer = $('.gallery').isotope({
-    itemSelector: '.item',
+    itemSelector: '.items',
     layoutMode: 'fitRows'
 })
 
