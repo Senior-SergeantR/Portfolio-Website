@@ -98,4 +98,3 @@ $('.testimonials-container').owlCarousel({
 })
 
 
-// note: some links i am supposed to add in html from cdnjs 1:51:30s

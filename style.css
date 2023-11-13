@@ -90,6 +90,7 @@ body{
 .navbar .logo h3{
     width: 110px;
     height: auto;
+    color: var(--primary-clr);
 }
 
 .navbar ul.nav-links{
@@ -308,7 +309,7 @@ button.contact-btn{
 
 .career-container .career-item .icon i{
     font-size: 22px;
-    color: var(--bg-clr-ones);
+    color: var(--bg-clr-one);
 }
 
 .career-container .career-item .career-desc{
