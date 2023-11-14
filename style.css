@@ -54,20 +54,57 @@ html{
 body{
     width: 100%;
     min-height: 100vh;
-    background-color: #22092C ;
+    background-color: var(--bg-clr-one);
+    /* background-color: #0c192c ; */
+    /* background-image: url(./images/bgd.jpg); */
 }
+
+/* .bubbles span{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: #4fc3dc;
+    margin: 0 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc,
+    0 0 0 100px #4fc3dc;
+    animation: animate 15s linear infinite;
+    animation-duration: calc(125s / var(--i));
+    
+} */
+/* .bubbles span:nth-child(even){
+    background: #ff2d75;
+    box-shadow: 0 0 0 10px #ff2d7544,
+    0 0 50px #ff2d75,
+    0 0 0 100px #ff2d75;
+    animation: animate 15s linear infinite;
+}
+
+@keyframes animate{
+
+    0%{
+        transform: translateY(100vh) scale(0);
+    }
+    100%{
+        transform:translateY(-10vh)scale(1);
+    }
+} */
 
 .website-container{
    position: relative;
-   max-width: 1500px;
-   margin: 0px auto; 
+   max-width: 1600px;
+   margin: 0px auto;
+   backdrop-filter: blur(20px);
+   z-index: -1;
+   
 }
 
 .home{
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background-color: var(--bg-clr-one);
+    /* background-color: var(--bg-clr-one); */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -133,9 +170,15 @@ body{
 
 .multiText{
     font-family: sans-serif;
-    color: #22092C ;
+    color: #ffffff ;
     font-size: 80px;
     font-weight: 600;
+    text-shadow: 0 0 10px #00b3ff,
+    0 0 20px #00b3ff,
+    0 0 40px #00b3ff,
+    0 0 80px #00b3ff,
+    0 0 120px #00b3ff;
+    
     
 }
 

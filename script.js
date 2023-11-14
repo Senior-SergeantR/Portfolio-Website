@@ -13,7 +13,7 @@ function activeClass(){
 //typed.js link at cdn.js
 
 var typingEffect = new Typed(".multiText",{
-    strings:["Designer", "Coder", "Developer"],
+    strings:["Designer", "Coder", "Developer", "Programmer"],
     loop:true,
     typeSpeed:100,
     backSpeed:80,
