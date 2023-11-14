@@ -9,6 +9,18 @@ function activeClass(){
     menu.classList.toggle('active')
 } 
 
+
+//typed.js link at cdn.js
+
+var typingEffect = new Typed(".multiText",{
+    strings:["Designer", "Coder", "Developer"],
+    loop:true,
+    typeSpeed:100,
+    backSpeed:80,
+    backDelay:2000,
+})
+
+
 for(i = 0; i < menuLinks.length; i++){
     menuLinks[i].addEventListener('click',menuItemClicked);
 }
