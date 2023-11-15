@@ -95,8 +95,8 @@ body{
    position: relative;
    max-width: 1600px;
    margin: 0px auto;
-   backdrop-filter: blur(20px);
-   z-index: -1;
+   /* backdrop-filter: blur(20px); */
+   
    
 }
 
