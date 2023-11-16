@@ -170,6 +170,7 @@ body{
     font-size: 15px;
     color: var(--links-clr);
     transition: color 0.4s;
+    font-weight: 600;
 }
 
 .navbar ul.nav-links li a::after{
@@ -253,6 +254,7 @@ button.contact-btn{
     display: flex;
     align-items: center;
     overflow: hidden;
+    
 }
 
 .home.active .navbar{
@@ -261,7 +263,7 @@ button.contact-btn{
     max-height: 70px;
     height: 10vh;
     background-color: var(--bg-clr-one);
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 10px 20px #505050;
 }
 
 .hero .hero-text{
