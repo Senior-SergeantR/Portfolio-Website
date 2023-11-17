@@ -501,6 +501,10 @@ button.contact-btn{
     margin-top: 25px;
 }
 
+.about-desc .about-personal-info span{
+    color: var(--primary-light-clr);
+}
+
 .services .services-container{
     
     display: flex;
@@ -942,7 +946,22 @@ button.contact-btn{
     position: relative;
 }
 
+ .testimonial-card{
+    animation: slide 5s linear infinite;
+    
+}
 
+/* @keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+} */
 
 .testimenials-container .testimonial-card{
     padding: 20px;
@@ -1399,6 +1418,7 @@ background-color: var(--links-clr);
         border-bottom: 1px solid var(--primary-light-clr);
     }
 
+    
 
     .about .about-image{
         flex-basis: 100%;
@@ -1447,10 +1467,17 @@ background-color: var(--links-clr);
         border: 1px solid #ddd;
     }
 
-       
+    .content .name {
+        font-size: 24px;
+        color: var();
+        
+    }
+
+    content .des {
+       display: none;
+    }
+
 }
-
-
 
 /* Media querry screen size 600px or smaller*/
 
