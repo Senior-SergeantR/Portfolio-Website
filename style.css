@@ -50,8 +50,6 @@ html{
 
 
 
-
-
 body{
     width: 100%;
     min-height: 100vh;
@@ -149,7 +147,7 @@ body{
 }
 
 .navbar .logo h3{
-    width: 110px;
+    width: 220px;
     height: auto;
     color: var(--primary-clr);
 }
@@ -274,7 +272,7 @@ button.contact-btn{
 }
 
 .hero .hero-text h3{
-    font-size: 20px;
+    font-size: 15px;
     color: var(--primary-clr);
     opacity: 0.9;
 }
@@ -1294,6 +1292,11 @@ background-color: var(--links-clr);
     .portfolio .gallery .item{
         width: calc(100% / 2);
     }
+    .hero .hero-text p{
+       
+        color: var(--text-clr);
+       
+    }
 
 
 }
@@ -1364,6 +1367,13 @@ background-color: var(--links-clr);
 
     .home .career-container{
         grid-template-columns: 1fr;
+    }
+
+
+    .hero .hero-text p{
+       
+        color: var(--text-clr);
+       
     }
 
     /* about section */
