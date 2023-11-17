@@ -199,7 +199,6 @@ body{
     0 0 80px #00b3ff,
     0 0 120px #00b3ff;
     
-    
 }
 
 button.btn{
@@ -1467,7 +1466,26 @@ background-color: var(--links-clr);
     .hero .hero-image{
         right: -200px;
     }
+    .hero .hero-text h1{ 
+        
+        font-size: 30px;
+        color: var(--primary-clr);
+        margin: 12px  0px 25px;
+    
+    }
 
+    .multiText{
+        font-family: sans-serif;
+        color: #ffffff ;
+        font-size: 50px;
+        font-weight: 600;
+        text-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+        
+    }
     .page-footer .footer-contents{
         flex-direction: column;
     }
