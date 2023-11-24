@@ -86,27 +86,45 @@ $('.gallery').magnificPopup({
     }
 })
 
-$('.testimonials-container').owlCarousel({
+
+var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 0,
+      modifier: 1,
+      slideShadows: true,
+    },
     loop:true,
-    autoplay:true,
-    autoplayTime:6000,
-    margin:10,
-    nav:true,
-    navText:["<i class='fa-solid fa-arrow-left'></i>",
-             "<i class='fa-solid fa-arrow-right'></i>"],
-    responsive:{
-        0:{
-            items:1,
-            nav:false
-        },
-        600:{
-            items:2,
-            nav:true
-        },
-        768:{
-            items:2
-        }
-    }
-})
+  });
+
+
+
+// $('.testimonials-container').owlCarousel({
+//     loop:true,
+//     autoplay:true,
+//     autoplayTime:6000,
+//     margin:10,
+//     nav:true,
+//     navText:["<i class='fa-solid fa-arrow-left'></i>",
+//              "<i class='fa-solid fa-arrow-right'></i>"],
+//     responsive:{
+//         0:{
+//             items:1,
+//             nav:false
+//         },
+//         600:{
+//             items:2,
+//             nav:true
+//         },
+//         768:{
+//             items:2
+//         }
+//     }
+// })
 
 

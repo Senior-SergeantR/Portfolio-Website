@@ -951,7 +951,7 @@ button.contact-btn{
     
 }
 
-/* @keyframes slide{
+@keyframes slide{
     0%{
         transform: translateX(0);
     }
@@ -961,7 +961,7 @@ button.contact-btn{
     100%{
         transform: translateX(0);
     }
-} */
+}
 
 .testimenials-container .testimonial-card{
     padding: 20px;
@@ -989,8 +989,11 @@ button.contact-btn{
 }
 
 .testimonial-card .test-card-body{
-    background-color: var(--primary-light-clr);
+    background-color: rgb(255,255,255,0.1);
     padding: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    
 }
 
 .test-card-body .quote{
@@ -1041,7 +1044,7 @@ button.contact-btn{
     color: var(--text-clr);
 }
 
-.testimonials .owl-nav{
+/* .testimonials .owl-nav{
     position: absolute;
     right: 20px;
     bottom: -10px;
@@ -1078,7 +1081,31 @@ button.contact-btn{
 
 .testimenials .owl-dots .owl-dot.active span{
     background-color: var(--primary-clr) !important;
+} */
+
+section.testimonials.reusable{
+    background:none;
 }
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  
+  }
+
+  .swiper-slide {
+      background-color: 255,255,255,0.5;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    min-height: 300px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 50px;
+  border-radius: 50%;
+  }
 
 .contact-form{
     width: 100%;
